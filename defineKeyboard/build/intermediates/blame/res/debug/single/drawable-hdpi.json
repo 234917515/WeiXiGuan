@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
+        "source": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sym_keyboard_shift.png",
+        "source": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\src\\main\\res\\drawable-hdpi\\sym_keyboard_shift.png"
+    },
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\keyboard_backspace.png",
+        "source": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\src\\main\\res\\drawable-hdpi\\keyboard_backspace.png"
+    },
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sym_keyboard_done.png",
+        "source": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\src\\main\\res\\drawable-hdpi\\sym_keyboard_done.png"
+    },
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sym_keyboard_delete.png",
+        "source": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\src\\main\\res\\drawable-hdpi\\sym_keyboard_delete.png"
+    },
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sym_keyboard_search.png",
+        "source": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\src\\main\\res\\drawable-hdpi\\sym_keyboard_search.png"
+    },
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sym_keyboard_left.png",
+        "source": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\src\\main\\res\\drawable-hdpi\\sym_keyboard_left.png"
+    },
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sym_keyboard_space.png",
+        "source": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\src\\main\\res\\drawable-hdpi\\sym_keyboard_space.png"
+    },
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sym_keyboard_right.png",
+        "source": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\src\\main\\res\\drawable-hdpi\\sym_keyboard_right.png"
+    },
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_dialog_keyboard.png",
+        "source": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\src\\main\\res\\drawable-hdpi\\ic_dialog_keyboard.png"
+    }
+]

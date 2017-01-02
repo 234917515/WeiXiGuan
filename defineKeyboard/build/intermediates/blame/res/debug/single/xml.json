@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\build\\intermediates\\res\\merged\\debug\\xml\\qwerty.xml",
+        "source": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\src\\main\\res\\xml\\qwerty.xml"
+    },
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\build\\intermediates\\res\\merged\\debug\\xml\\symbols.xml",
+        "source": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\src\\main\\res\\xml\\symbols.xml"
+    }
+]

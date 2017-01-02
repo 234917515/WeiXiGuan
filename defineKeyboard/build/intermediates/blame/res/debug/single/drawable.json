@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\build\\intermediates\\res\\merged\\debug\\drawable\\normal_key_bg.9.png",
+        "source": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\src\\main\\res\\drawable\\normal_key_bg.9.png"
+    },
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_keyboard_key.xml",
+        "source": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\src\\main\\res\\drawable\\btn_keyboard_key.xml"
+    },
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\build\\intermediates\\res\\merged\\debug\\drawable\\normal_key_hl_bg.9.png",
+        "source": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\src\\main\\res\\drawable\\normal_key_hl_bg.9.png"
+    }
+]
