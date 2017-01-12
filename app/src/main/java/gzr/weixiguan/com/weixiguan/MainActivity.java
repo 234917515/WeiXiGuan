@@ -2,16 +2,21 @@ package gzr.weixiguan.com.weixiguan;
 
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.LinearLayout;
 
+import cn.bmob.v3.Bmob;
 import gzr.weixiguan.com.fragment.HabitFragment;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+    private static  final  String APPLICATIONID = "6a005af95593a63a2b9f7f1fd202bde3";
     private FragmentManager mFragmentManager;
     private HabitFragment mHabitFragment;
     @Override
@@ -22,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         toolbar.setTitle("");
 
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         init();
 
 //        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -33,12 +39,20 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
     }
+    private LinearLayout ll_discover;
     private void init(){
+        //第一：默认初始化
+        Bmob.initialize(this, APPLICATIONID);
+
         mHabitFragment = new HabitFragment();
         mFragmentManager = getFragmentManager();
         FragmentTransaction fragmentTransaction = mFragmentManager.beginTransaction();
         fragmentTransaction.add(R.id.content,mHabitFragment);
         fragmentTransaction.commit();
+
+
+        ll_discover = (LinearLayout) findViewById(R.id.ll_discover);
+        ll_discover.setOnClickListener(this);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -62,5 +76,27 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch(v.getId()){
+            case R.id.ll_discover:
+//                Person p2 = new Person();
+//                p2.setName("lucky2");
+//                p2.setAddress("广东广州");
+//                p2.save(new SaveListener<String>() {
+//                    @Override
+//                    public void done(String objectId,BmobException e) {
+//                        if(e==null){
+//                            Logger.d("添加数据成功，返回objectId为："+objectId);
+//                        }else{
+//                            Logger.d("创建数据失败：" + e.getMessage());
+//                        }
+//                    }
+//                });
+                startActivity(new Intent(this,SearchActivity.class));
+                break;
+        }
     }
 }

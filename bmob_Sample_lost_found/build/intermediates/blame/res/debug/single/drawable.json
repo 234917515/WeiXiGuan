@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_back_selector.xml",
+        "source": "E:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\src\\main\\res\\drawable\\btn_back_selector.xml"
+    },
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\build\\intermediates\\res\\merged\\debug\\drawable\\base_pop_bg_selector.xml",
+        "source": "E:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\src\\main\\res\\drawable\\base_pop_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_add_selector.xml",
+        "source": "E:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\src\\main\\res\\drawable\\btn_add_selector.xml"
+    },
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_true_selector.xml",
+        "source": "E:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\src\\main\\res\\drawable\\btn_true_selector.xml"
+    },
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_arrow_selector.xml",
+        "source": "E:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\src\\main\\res\\drawable\\btn_arrow_selector.xml"
+    }
+]

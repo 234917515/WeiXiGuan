@@ -1,11 +1,11 @@
 [
     {
-        "merged": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
-        "source": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\src\\main\\res\\drawable-hdpi\\icon.png"
-    },
-    {
         "merged": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\sym_keyboard_shift.png",
         "source": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\src\\main\\res\\drawable-hdpi\\sym_keyboard_shift.png"
+    },
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
+        "source": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\src\\main\\res\\drawable-hdpi\\icon.png"
     },
     {
         "merged": "E:\\ASProject\\WeiXiGuan\\defineKeyboard\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\keyboard_backspace.png",

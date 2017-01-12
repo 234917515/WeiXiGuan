@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\build\\intermediates\\res\\merged\\debug\\anim\\scale_top_out.xml",
+        "source": "E:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\src\\main\\res\\anim\\scale_top_out.xml"
+    },
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\build\\intermediates\\res\\merged\\debug\\anim\\zoomout_right.xml",
+        "source": "E:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\src\\main\\res\\anim\\zoomout_right.xml"
+    },
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\build\\intermediates\\res\\merged\\debug\\anim\\zoomin_right.xml",
+        "source": "E:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\src\\main\\res\\anim\\zoomin_right.xml"
+    },
+    {
+        "merged": "E:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\build\\intermediates\\res\\merged\\debug\\anim\\scale_top_in.xml",
+        "source": "E:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\src\\main\\res\\anim\\scale_top_in.xml"
+    }
+]

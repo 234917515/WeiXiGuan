@@ -7,7 +7,6 @@ The following files were *not* copied into the new Gradle project; you
 should evaluate whether these are still needed in your project and if
 so manually move them:
 
-* ic_launcher-web.png
 * proguard-project.txt
 
 Replaced Jars with Dependencies:
@@ -27,12 +26,12 @@ Moved Files:
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
-* AndroidManifest.xml => defineKeyboard\src\main\AndroidManifest.xml
-* assets\ => defineKeyboard\src\main\assets
-* res\ => defineKeyboard\src\main\res\
-* src\ => defineKeyboard\src\main\java\
-* sym_keyboard_left.PNG => sym_keyboard_left.png
-* sym_keyboard_right.PNG => sym_keyboard_right.png
+* AndroidManifest.xml => bmob_Sample_lost_found\src\main\AndroidManifest.xml
+* assets\ => bmob_Sample_lost_found\src\main\assets
+* libs\bmob_v3.1.1beta.jar => bmob_Sample_lost_found\libs\bmob_v3.1.1beta.jar
+* libs\picasso-2.2.0.jar => bmob_Sample_lost_found\libs\picasso-2.2.0.jar
+* res\ => bmob_Sample_lost_found\src\main\res\
+* src\ => bmob_Sample_lost_found\src\main\java\
 
 Missing Android Support Repository:
 -----------------------------------

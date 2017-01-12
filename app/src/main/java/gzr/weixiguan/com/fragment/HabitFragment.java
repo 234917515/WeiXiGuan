@@ -49,7 +49,7 @@ public class HabitFragment extends Fragment {
     }
     private void initDatas(){
         mHabitList = new ArrayList<>();
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 10; i++) {
             Habit habit = new Habit();
             habit.setDays(i);
             habit.setHabit("每天坚持30分钟跑步");
