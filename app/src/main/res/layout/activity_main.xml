@@ -35,7 +35,7 @@
          >
 
         <RelativeLayout
-            android:id="@+id/message_layout"
+            android:id="@+id/Wxg_layout"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1" >
@@ -64,13 +64,12 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/contacts_layout"
+            android:id="@+id/discover_layout"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1" >
 
             <LinearLayout
-                android:id="@+id/ll_discover"
                 android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -95,7 +94,7 @@
         </RelativeLayout>
 
         <RelativeLayout
-            android:id="@+id/news_layout"
+            android:id="@+id/message_layout"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1" >

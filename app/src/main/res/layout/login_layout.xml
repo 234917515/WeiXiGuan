@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:padding="10dp"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:gravity="center_vertical">
+
+        <TextView
+            android:text="国家/地区"
+            android:layout_width="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_height="wrap_content" android:id="@+id/textView2"/>
+        <TextView
+            android:text="中国"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"/>
+
+    </RelativeLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:counterEnabled="true"
+        app:counterOverflowTextAppearance="@color/colorTextOverflow"
+        app:errorTextAppearance="@color/colorErrorText"
+        app:counterMaxLength="12">
+        <RelativeLayout android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+            <edittextfirework.FireworkView android:layout_width="match_parent"
+                                           android:layout_height="50dp"
+                                           android:id="@+id/fireworkview"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="用户名"
+                android:ems="10"
+                android:id="@+id/username"/>
+        </RelativeLayout>
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorTextAppearance="@color/colorErrorText"
+        app:counterEnabled="true"
+        app:counterOverflowTextAppearance="@color/colorTextOverflow"
+        app:counterMaxLength="16">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="密码"
+            android:ems="10"
+            android:id="@+id/password"/>
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:text="Button"
+        android:background="@drawable/selectable_background"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content" android:id="@+id/button"/>
+
+</LinearLayout>

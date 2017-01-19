@@ -9,7 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 
 import cn.bmob.v3.Bmob;
 import gzr.weixiguan.com.fragment.HabitFragment;
@@ -39,7 +39,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //            }
 //        });
     }
-    private LinearLayout ll_discover;
+    private RelativeLayout rl_discover;
+    private RelativeLayout rl_message;
     private void init(){
         //第一：默认初始化
         Bmob.initialize(this, APPLICATIONID);
@@ -51,8 +52,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         fragmentTransaction.commit();
 
 
-        ll_discover = (LinearLayout) findViewById(R.id.ll_discover);
-        ll_discover.setOnClickListener(this);
+        rl_discover = (RelativeLayout) findViewById(R.id.discover_layout);
+        rl_message = (RelativeLayout) findViewById(R.id.message_layout);
+        rl_discover.setOnClickListener(this);
+        rl_message.setOnClickListener(this);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -81,7 +84,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         switch(v.getId()){
-            case R.id.ll_discover:
+            case R.id.discover_layout:
 //                Person p2 = new Person();
 //                p2.setName("lucky2");
 //                p2.setAddress("广东广州");
@@ -96,6 +99,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //                    }
 //                });
                 startActivity(new Intent(this,SearchActivity.class));
+                break;
+            case R.id.message_layout:
+                startActivity(new Intent(this,LoginActivity.class));
                 break;
         }
     }

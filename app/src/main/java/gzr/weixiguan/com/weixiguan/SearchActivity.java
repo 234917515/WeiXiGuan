@@ -1,7 +1,9 @@
 package gzr.weixiguan.com.weixiguan;
 
+import android.app.Fragment;
 import android.os.Bundle;
-import android.os.PersistableBundle;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -9,23 +11,57 @@ import android.view.MenuItem;
 
 import com.orhanobut.logger.Logger;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import gzr.weixiguan.com.adapter.SimpleFragmentPagerAdapter;
+import gzr.weixiguan.com.fragment.EfficiencyFragment;
+import gzr.weixiguan.com.fragment.FragmentFactory;
+import gzr.weixiguan.com.fragment.HealthFragment;
+import gzr.weixiguan.com.fragment.HotFragment;
+import gzr.weixiguan.com.fragment.LearningFragment;
+import gzr.weixiguan.com.fragment.SportFragment;
+import gzr.weixiguan.com.fragment.ThinkingFragment;
+
 /**
  * Created by guoziren on 2017/1/12.
  */
 
 public class SearchActivity extends AppCompatActivity {
+    private SimpleFragmentPagerAdapter pagerAdapter;
+
+    private ViewPager viewPager;
+
+    private TabLayout tabLayout;
+
+    private List<Fragment> mFragmentList = new ArrayList<>();
     @Override
-    public void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
-        super.onCreate(savedInstanceState, persistentState);
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.serarch_layout);
         Logger.d("onCreate: ");
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-      //  toolbar.setTitle("");
+        toolbar.setTitle("");
 
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        init();
     }
+    private void init(){
+          mFragmentList.add(FragmentFactory.newInstance(HotFragment.class)) ;
+          mFragmentList.add(FragmentFactory.newInstance(LearningFragment.class)) ;
+          mFragmentList.add(FragmentFactory.newInstance(SportFragment.class)) ;
+          mFragmentList.add(FragmentFactory.newInstance(EfficiencyFragment.class)) ;
+          mFragmentList.add(FragmentFactory.newInstance(HealthFragment.class)) ;
+          mFragmentList.add(FragmentFactory.newInstance(ThinkingFragment.class)) ;
 
+        pagerAdapter = new SimpleFragmentPagerAdapter(getFragmentManager(), this ,mFragmentList);
+        viewPager = (ViewPager) findViewById(R.id.viewpager);
+        viewPager.setAdapter(pagerAdapter);
+        tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
+        tabLayout.setupWithViewPager(viewPager);
+        tabLayout.setTabMode(TabLayout.MODE_FIXED);
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.search_menu,menu);

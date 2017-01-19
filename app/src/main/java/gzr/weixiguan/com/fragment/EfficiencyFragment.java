@@ -1,5 +1,4 @@
 package gzr.weixiguan.com.fragment;
-
 import android.app.Fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -23,27 +22,16 @@ import gzr.weixiguan.com.weixiguan.R;
  * Created by guoziren on 2017/1/2.
  */
 
-public class HabitFragment extends Fragment {
+public class EfficiencyFragment extends Fragment {
     private RecyclerView mRecyclerView;
     private List<Habit> mHabitList;
     private HomeAdapter mHomeAdapter;
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Logger.d("onCreate: ");
         initDatas();
-    }
-    public static final String ARG_PAGE = "ARG_PAGE";
-    private int mPage;
-
-    public static HabitFragment newInstance(int page) {
-        Bundle args = new Bundle();
-        args.putInt(ARG_PAGE, page);
-        HabitFragment pageFragment = new HabitFragment();
-        pageFragment.setArguments(args);
-        return pageFragment;
     }
 
     @Nullable

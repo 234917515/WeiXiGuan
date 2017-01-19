@@ -1,7 +1,0 @@
-#Mon Jan 09 08:59:48 CST 2017
-base.0=E\:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1b3c915a537cab7f5f05ff089f0e6329dea57920
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=E\:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b88f16078b3b34800164c88c426467af8d661d84\\classes.dex
-base.1=E\:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b88f16078b3b34800164c88c426467af8d661d84
-file.0=E\:\\ASProject\\WeiXiGuan\\bmob_Sample_lost_found\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_1b3c915a537cab7f5f05ff089f0e6329dea57920\\classes.dex
